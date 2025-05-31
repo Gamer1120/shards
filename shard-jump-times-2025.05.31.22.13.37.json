@@ -1,20 +1,112 @@
 {
   "artifact": [
     {
-      "id": "targetres",
-      "name": "Target RES"
+      "id": "oscar",
+      "name": "Oscar"
+    },
+    {
+      "id": "golf",
+      "name": "Golf"
+    },
+    {
+      "id": "victor",
+      "name": "Victor"
+    },
+    {
+      "id": "india",
+      "name": "India"
+    },
+    {
+      "id": "bravo",
+      "name": "Bravo"
+    },
+    {
+      "id": "lima",
+      "name": "Lima"
+    },
+    {
+      "id": "alpha",
+      "name": "Alpha"
+    },
+    {
+      "id": "kilo",
+      "name": "Kilo"
+    },
+    {
+      "id": "sierra",
+      "name": "Sierra"
+    },
+    {
+      "id": "echo",
+      "name": "Echo"
+    },
+    {
+      "id": "tango",
+      "name": "Tango"
+    },
+    {
+      "id": "november",
+      "name": "November"
+    },
+    {
+      "id": "zulu",
+      "name": "Zulu"
+    },
+    {
+      "id": "xray",
+      "name": "Xray"
+    },
+    {
+      "id": "whiskey",
+      "name": "Whiskey"
+    },
+    {
+      "id": "delta",
+      "name": "Delta"
+    },
+    {
+      "id": "charlie",
+      "name": "Charlie"
+    },
+    {
+      "id": "quebec",
+      "name": "Quebec"
+    },
+    {
+      "id": "romeo",
+      "name": "Romeo"
+    },
+    {
+      "id": "mike",
+      "name": "Mike"
+    },
+    {
+      "id": "uniform",
+      "name": "Uniform"
     },
     {
       "id": "papa",
       "name": "Papa"
     },
     {
+      "id": "targetres",
+      "name": "Target RES"
+    },
+    {
+      "id": "abaddon2",
+      "name": "Abaddon 2"
+    },
+    {
       "id": "yankee",
       "name": "Yankee"
     },
     {
-      "id": "tango",
-      "name": "Tango"
+      "id": "targetenl",
+      "name": "Target ENL"
+    },
+    {
+      "id": "juliet",
+      "name": "Juliet"
     },
     {
       "id": "abaddon1",
@@ -182,47 +274,110 @@
           ]
         },
         {
-          "id": "abaddon1_12",
-          "currentPortalInfo": {
-            "title": "Janko Cmelik",
-            "latE6": 48157981,
-            "lngE6": 17176009,
-            "team": "RESISTANCE"
-          },
+          "id": "abaddon1_13",
           "history": [
             {
-              "moveTimeMs": "1748685603455",
+              "moveTimeMs": "1748704201593",
+              "reason": "despawn",
+              "originPortalInfo": {
+                "title": "Bunker Krylen",
+                "latE6": 56160683,
+                "lngE6": 8117628,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED"
+            },
+            {
+              "moveTimeMs": "1748703604062",
+              "reason": "no move"
+            },
+            {
+              "moveTimeMs": "1748700007143",
               "reason": "link",
               "originPortalInfo": {
-                "title": "Malba",
-                "description": "Makovice na obytnom dome",
-                "latE6": 48144939,
-                "lngE6": 17211458,
+                "title": "Wandelnetwerk Groningen Knooppunt 4",
+                "description": "Knooppunt van het wandelnetwerk Groningen.",
+                "latE6": 53387147,
+                "lngE6": 6847155,
                 "team": "ENLIGHTENED"
               },
               "originCapturerTeam": "NOT_SPECIFIED",
               "destinationPortalInfo": {
-                "title": "Janko Cmelik",
-                "latE6": 48157981,
-                "lngE6": 17176009,
+                "title": "Bunker Krylen",
+                "latE6": 56160683,
+                "lngE6": 8117628,
                 "team": "RESISTANCE"
               },
               "destinationCapturerTeam": "NOT_SPECIFIED",
-              "linkCreationTimeMs": "1748685547179",
+              "linkCreationTimeMs": "1748698665067",
               "linkCreatorTeam": "RESISTANCE",
               "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
             },
             {
-              "moveTimeMs": "1748682003519",
-              "reason": "spawn",
+              "moveTimeMs": "1748696401301",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Fietsknooppunt 25",
+                "description": "Knooppunt 25 van het netwerk fietsknooppunten Groningen.",
+                "latE6": 53363281,
+                "lngE6": 6894079,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "RESISTANCE",
               "destinationPortalInfo": {
-                "title": "Malba",
-                "description": "Makovice na obytnom dome",
-                "latE6": 48144939,
-                "lngE6": 17211458,
+                "title": "Wandelnetwerk Groningen Knooppunt 4",
+                "description": "Knooppunt van het wandelnetwerk Groningen.",
+                "latE6": 53387147,
+                "lngE6": 6847155,
                 "team": "ENLIGHTENED"
               },
-              "destinationCapturerTeam": "NOT_SPECIFIED"
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1748696365992",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748692803048",
+              "reason": "no move"
+            },
+            {
+              "moveTimeMs": "1748689206223",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Fiets routebord nr 85 op de dijk",
+                "description": "Fietsroute bord nr 85 op de dijk van Delfzijl.",
+                "latE6": 53336426,
+                "lngE6": 6928437,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "Fietsknooppunt 25",
+                "description": "Knooppunt 25 van het netwerk fietsknooppunten Groningen.",
+                "latE6": 53363281,
+                "lngE6": 6894079,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "linkCreationTimeMs": "1748689109081",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748685600177",
+              "reason": "no move"
+            },
+            {
+              "moveTimeMs": "1748682007740",
+              "reason": "spawn",
+              "destinationPortalInfo": {
+                "title": "Fiets routebord nr 85 op de dijk",
+                "description": "Fietsroute bord nr 85 op de dijk van Delfzijl.",
+                "latE6": 53336426,
+                "lngE6": 6928437,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "RESISTANCE"
             }
           ]
         },
@@ -355,75 +510,330 @@
           ]
         },
         {
-          "id": "abaddon1_16",
-          "currentPortalInfo": {
-            "title": "Desembocadura del Río Gállego",
-            "description": "Panel informativo en la desembocadura del rio Gallego al rio Ebro",
-            "latE6": 41650566,
-            "lngE6": -848689,
-            "team": "ENLIGHTENED"
-          },
+          "id": "abaddon1_10",
           "history": [
             {
-              "moveTimeMs": "1748685605464",
-              "reason": "link",
+              "moveTimeMs": "1748700600731",
+              "reason": "despawn",
               "originPortalInfo": {
-                "title": "Paseando Por La Alameda Del Ebro",
-                "description": "Cartel informativo del paseo de la llamada del Ebro",
-                "latE6": 41654911,
-                "lngE6": -866423,
+                "title": "Крепост Калето",
+                "description": "римска крепост",
+                "latE6": 42913581,
+                "lngE6": 24663486,
                 "team": "ENLIGHTENED"
               },
-              "originCapturerTeam": "ENLIGHTENED",
+              "originCapturerTeam": "NOT_SPECIFIED"
+            },
+            {
+              "moveTimeMs": "1748700006126",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Resting hut",
+                "description": "Resting hut",
+                "latE6": 42727798,
+                "lngE6": 23345701,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
               "destinationPortalInfo": {
-                "title": "Desembocadura del Río Gállego",
-                "description": "Panel informativo en la desembocadura del rio Gallego al rio Ebro",
-                "latE6": 41650566,
-                "lngE6": -848689,
+                "title": "Крепост Калето",
+                "description": "римска крепост",
+                "latE6": 42913581,
+                "lngE6": 24663486,
                 "team": "ENLIGHTENED"
               },
               "destinationCapturerTeam": "NOT_SPECIFIED",
-              "linkCreationTimeMs": "1748682599206",
+              "linkCreationTimeMs": "1748699306010",
               "linkCreatorTeam": "ENLIGHTENED",
               "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
             },
             {
-              "moveTimeMs": "1748682022639",
-              "reason": "spawn",
-              "destinationPortalInfo": {
-                "title": "Paseando Por La Alameda Del Ebro",
-                "description": "Cartel informativo del paseo de la llamada del Ebro",
-                "latE6": 41654911,
-                "lngE6": -866423,
+              "moveTimeMs": "1748696403327",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "STOP CKAPA",
+                "description": "graffiti",
+                "latE6": 42709095,
+                "lngE6": 23398993,
                 "team": "ENLIGHTENED"
               },
-              "destinationCapturerTeam": "NOT_SPECIFIED"
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "Resting hut",
+                "description": "Resting hut",
+                "latE6": 42727798,
+                "lngE6": 23345701,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "linkCreationTimeMs": "1748695329809",
+              "linkCreatorTeam": "ENLIGHTENED",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748692809198",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "The Angry Bandit",
+                "description": "Angry Bandit Graffiti",
+                "latE6": 42716224,
+                "lngE6": 23375252,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "ENLIGHTENED",
+              "destinationPortalInfo": {
+                "title": "STOP CKAPA",
+                "description": "graffiti",
+                "latE6": 42709095,
+                "lngE6": 23398993,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "ENLIGHTENED",
+              "linkCreationTimeMs": "1748691325335",
+              "linkCreatorTeam": "ENLIGHTENED",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748689204292",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Metrostation Hadzhi Dimitar Billa",
+                "description": "Metrostation Hadzhi Dimitar Billa",
+                "latE6": 42702677,
+                "lngE6": 23352950,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "The Angry Bandit",
+                "description": "Angry Bandit Graffiti",
+                "latE6": 42716224,
+                "lngE6": 23375252,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "ENLIGHTENED",
+              "linkCreationTimeMs": "1748687080445",
+              "linkCreatorTeam": "ENLIGHTENED",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748685604138",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Георги Наджаков",
+                "description": "Паметна плоча.",
+                "latE6": 42691701,
+                "lngE6": 23338896,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "Metrostation Hadzhi Dimitar Billa",
+                "description": "Metrostation Hadzhi Dimitar Billa",
+                "latE6": 42702677,
+                "lngE6": 23352950,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "linkCreationTimeMs": "1748684484322",
+              "linkCreatorTeam": "ENLIGHTENED",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748682007177",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Масово изкачване на Черни Връх",
+                "description": "Началото",
+                "latE6": 42694622,
+                "lngE6": 23325489,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "Георги Наджаков",
+                "description": "Паметна плоча.",
+                "latE6": 42691701,
+                "lngE6": 23338896,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "ENLIGHTENED",
+              "linkCreationTimeMs": "1748681231987",
+              "linkCreatorTeam": "ENLIGHTENED",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748678406578",
+              "reason": "spawn",
+              "destinationPortalInfo": {
+                "title": "Масово изкачване на Черни Връх",
+                "description": "Началото",
+                "latE6": 42694622,
+                "lngE6": 23325489,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "RESISTANCE"
             }
           ]
         },
         {
-          "id": "abaddon1_13",
-          "currentPortalInfo": {
-            "title": "Fiets routebord nr 85 op de dijk",
-            "description": "Fietsroute bord nr 85 op de dijk van Delfzijl.",
-            "latE6": 53336426,
-            "lngE6": 6928437,
-            "team": "ENLIGHTENED"
-          },
+          "id": "abaddon1_11",
           "history": [
             {
-              "moveTimeMs": "1748685600177",
-              "reason": "no move"
+              "moveTimeMs": "1748704202606",
+              "reason": "despawn",
+              "originPortalInfo": {
+                "title": "boisko do pilki nożnej w Strzegowie",
+                "description": "Boisko sportowe do gry w piłką nożną ale i także miejsce do spotkan towarzyskich. Odbywaja sie ty zawody sportowe i festny wiejskie",
+                "latE6": 50638405,
+                "lngE6": 17283534,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED"
             },
             {
-              "moveTimeMs": "1748682007740",
+              "moveTimeMs": "1748703601468",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Workout Darkovičky",
+                "description": "Místo sloužící k posilování pro malé i velké...",
+                "latE6": 49920811,
+                "lngE6": 18201169,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "boisko do pilki nożnej w Strzegowie",
+                "description": "Boisko sportowe do gry w piłką nożną ale i także miejsce do spotkan towarzyskich. Odbywaja sie ty zawody sportowe i festny wiejskie",
+                "latE6": 50638405,
+                "lngE6": 17283534,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "linkCreationTimeMs": "1748703551601",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748700002235",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Makrelovna",
+                "description": "U sterkovny",
+                "latE6": 49891684,
+                "lngE6": 18178245,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "Workout Darkovičky",
+                "description": "Místo sloužící k posilování pro malé i velké...",
+                "latE6": 49920811,
+                "lngE6": 18201169,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1748699959224",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748696406123",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Dřevěný Ježíš",
+                "description": "Socha vytesaná do dřeva v životní velikosti na pomezí dvou cyklostezek.",
+                "latE6": 49907000,
+                "lngE6": 18224938,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "Makrelovna",
+                "description": "U sterkovny",
+                "latE6": 49891684,
+                "lngE6": 18178245,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1748696374156",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748692802254",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Silky Rozcesti",
+                "latE6": 49911520,
+                "lngE6": 18257015,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "Dřevěný Ježíš",
+                "description": "Socha vytesaná do dřeva v životní velikosti na pomezí dvou cyklostezek.",
+                "latE6": 49907000,
+                "lngE6": 18224938,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1748692765825",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748689209328",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Soutok Odry A Ostravice",
+                "latE6": 49869751,
+                "lngE6": 18280165,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "Silky Rozcesti",
+                "latE6": 49911520,
+                "lngE6": 18257015,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1748689186435",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748685602255",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Soutok socha",
+                "description": "Socha u soutoku Lučiny s Ostravicí.",
+                "latE6": 49832194,
+                "lngE6": 18297721,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "RESISTANCE",
+              "destinationPortalInfo": {
+                "title": "Soutok Odry A Ostravice",
+                "latE6": 49869751,
+                "lngE6": 18280165,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1748685572820",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748682008587",
               "reason": "spawn",
               "destinationPortalInfo": {
-                "title": "Fiets routebord nr 85 op de dijk",
-                "description": "Fietsroute bord nr 85 op de dijk van Delfzijl.",
-                "latE6": 53336426,
-                "lngE6": 6928437,
-                "team": "ENLIGHTENED"
+                "title": "Soutok socha",
+                "description": "Socha u soutoku Lučiny s Ostravicí.",
+                "latE6": 49832194,
+                "lngE6": 18297721,
+                "team": "RESISTANCE"
               },
               "destinationCapturerTeam": "RESISTANCE"
             }
@@ -555,15 +965,252 @@
           ]
         },
         {
-          "id": "abaddon1_09",
-          "currentPortalInfo": {
-            "title": "Together",
-            "description": "Statue \"Together\" by Lutfi Romhein from Syria",
-            "latE6": 25199199,
-            "lngE6": 55273081,
-            "team": "RESISTANCE"
-          },
+          "id": "abaddon1_14",
           "history": [
+            {
+              "moveTimeMs": "1748704203635",
+              "reason": "despawn",
+              "originPortalInfo": {
+                "title": "Hail to the King",
+                "latE6": 58966151,
+                "lngE6": 5745656,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "ENLIGHTENED"
+            },
+            {
+              "moveTimeMs": "1748703603449",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Natvigs Minde",
+                "description": "Historic Quarantine and ship building Island Of Stavanger Port.",
+                "latE6": 58976751,
+                "lngE6": 5735832,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "Hail to the King",
+                "latE6": 58966151,
+                "lngE6": 5745656,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "ENLIGHTENED",
+              "linkCreationTimeMs": "1748703405969",
+              "linkCreatorTeam": "ENLIGHTENED",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748700005294",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Øyaneruta Sykkelsti.",
+                "description": "Sykkeltursti for sykkelstiene rundt på Hundvåg og Buøy.",
+                "latE6": 58989160,
+                "lngE6": 5732689,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "ENLIGHTENED",
+              "destinationPortalInfo": {
+                "title": "Natvigs Minde",
+                "description": "Historic Quarantine and ship building Island Of Stavanger Port.",
+                "latE6": 58976751,
+                "lngE6": 5735832,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "linkCreationTimeMs": "1748698767343",
+              "linkCreatorTeam": "ENLIGHTENED",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748696402251",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Åmøy Kirke",
+                "latE6": 59039405,
+                "lngE6": 5754265,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "ENLIGHTENED",
+              "destinationPortalInfo": {
+                "title": "Øyaneruta Sykkelsti.",
+                "description": "Sykkeltursti for sykkelstiene rundt på Hundvåg og Buøy.",
+                "latE6": 58989160,
+                "lngE6": 5732689,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "linkCreationTimeMs": "1748696336454",
+              "linkCreatorTeam": "ENLIGHTENED",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748692805181",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Hundvåg Steinring #2",
+                "description": "1 av 2 ringer av steiner på den nye halvøya på Hundvåg. Halvøya ble lagd av fyllmasse fra Ryfasttunellen.",
+                "latE6": 59012457,
+                "lngE6": 5737563,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "RESISTANCE",
+              "destinationPortalInfo": {
+                "title": "Åmøy Kirke",
+                "latE6": 59039405,
+                "lngE6": 5754265,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "linkCreationTimeMs": "1748688696140",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748689207219",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Helleristningen på Skeie.",
+                "description": "En helleristning fra Vikingetiden som viser ett langskip.\nHelleristningen ligger ved innseilingen til Stavanger på ett sted hvor befolkningen trolig hadde god utsikt til skipa som la ut på, eller returnerte fra seilas.",
+                "latE6": 59004478,
+                "lngE6": 5716321,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "Hundvåg Steinring #2",
+                "description": "1 av 2 ringer av steiner på den nye halvøya på Hundvåg. Halvøya ble lagd av fyllmasse fra Ryfasttunellen.",
+                "latE6": 59012457,
+                "lngE6": 5737563,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1748688523225",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748685608317",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Blidensol",
+                "description": "Oldest building in old Stavanger, built around year 1700",
+                "latE6": 58973682,
+                "lngE6": 5723618,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "RESISTANCE",
+              "destinationPortalInfo": {
+                "title": "Helleristningen på Skeie.",
+                "description": "En helleristning fra Vikingetiden som viser ett langskip.\nHelleristningen ligger ved innseilingen til Stavanger på ett sted hvor befolkningen trolig hadde god utsikt til skipa som la ut på, eller returnerte fra seilas.",
+                "latE6": 59004478,
+                "lngE6": 5716321,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1748685557260",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748682001631",
+              "reason": "spawn",
+              "destinationPortalInfo": {
+                "title": "Blidensol",
+                "description": "Oldest building in old Stavanger, built around year 1700",
+                "latE6": 58973682,
+                "lngE6": 5723618,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "ENLIGHTENED"
+            }
+          ]
+        },
+        {
+          "id": "abaddon1_09",
+          "history": [
+            {
+              "moveTimeMs": "1748697000613",
+              "reason": "despawn",
+              "originPortalInfo": {
+                "title": "Calligraphy Art",
+                "description": "Traditional calligraphy styles like Spencerian and Copperplate have been around for years, and you create them with very particular strokes and formations. This is a perfect example of calligraphy art in the downtown area.",
+                "latE6": 25193692,
+                "lngE6": 55263655,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "RESISTANCE"
+            },
+            {
+              "moveTimeMs": "1748696405125",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "The Bronze Tower",
+                "description": "\n",
+                "latE6": 25192261,
+                "lngE6": 55261953,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "RESISTANCE",
+              "destinationPortalInfo": {
+                "title": "Calligraphy Art",
+                "description": "Traditional calligraphy styles like Spencerian and Copperplate have been around for years, and you create them with very particular strokes and formations. This is a perfect example of calligraphy art in the downtown area.",
+                "latE6": 25193692,
+                "lngE6": 55263655,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1746584702638",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748692808130",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Business Bay Metro Station",
+                "description": "Businessbay Metro Station.",
+                "latE6": 25191186,
+                "lngE6": 55260538,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "The Bronze Tower",
+                "description": "\n",
+                "latE6": 25192261,
+                "lngE6": 55261953,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1746448333502",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748689203142",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Together",
+                "description": "Statue \"Together\" by Lutfi Romhein from Syria",
+                "latE6": 25199199,
+                "lngE6": 55273081,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "RESISTANCE",
+              "destinationPortalInfo": {
+                "title": "Business Bay Metro Station",
+                "description": "Businessbay Metro Station.",
+                "latE6": 25191186,
+                "lngE6": 55260538,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "linkCreationTimeMs": "1746447931620",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
             {
               "moveTimeMs": "1748685606412",
               "reason": "link",
@@ -582,7 +1229,7 @@
                 "lngE6": 55273081,
                 "team": "RESISTANCE"
               },
-              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "destinationCapturerTeam": "RESISTANCE",
               "linkCreationTimeMs": "1748682883254",
               "linkCreatorTeam": "RESISTANCE",
               "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
@@ -870,6 +1517,273 @@
           ]
         },
         {
+          "id": "abaddon1_08",
+          "history": [
+            {
+              "moveTimeMs": "1748693400552",
+              "reason": "despawn",
+              "originPortalInfo": {
+                "title": "T Jetty",
+                "description": "South harbor",
+                "latE6": 4170899,
+                "lngE6": 73502706,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "RESISTANCE"
+            },
+            {
+              "moveTimeMs": "1748692806262",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Marrybrown",
+                "description": "First installment of it's kind in Maldives.",
+                "latE6": 4169523,
+                "lngE6": 73505290,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "RESISTANCE",
+              "destinationPortalInfo": {
+                "title": "T Jetty",
+                "description": "South harbor",
+                "latE6": 4170899,
+                "lngE6": 73502706,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1748692754722",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748689205173",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Fountain at Centre for Open Learning",
+                "description": "Centre for open learning is a branch of the Maldives National University.",
+                "latE6": 4172925,
+                "lngE6": 73509198,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "ENLIGHTENED",
+              "destinationPortalInfo": {
+                "title": "Marrybrown",
+                "description": "First installment of it's kind in Maldives.",
+                "latE6": 4169523,
+                "lngE6": 73505290,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "linkCreationTimeMs": "1748688958846",
+              "linkCreatorTeam": "ENLIGHTENED",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748685609292",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Delish central Cafe",
+                "description": "Delish central is fine dine cafe",
+                "latE6": 4173787,
+                "lngE6": 73510313,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "ENLIGHTENED",
+              "destinationPortalInfo": {
+                "title": "Fountain at Centre for Open Learning",
+                "description": "Centre for open learning is a branch of the Maldives National University.",
+                "latE6": 4172925,
+                "lngE6": 73509198,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "linkCreationTimeMs": "1748685592397",
+              "linkCreatorTeam": "ENLIGHTENED",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748682005517",
+              "reason": "jump",
+              "originPortalInfo": {
+                "title": "Islamic Mural of Shiru 2013",
+                "latE6": 4172920,
+                "lngE6": 73505152,
+                "team": "NEUTRAL"
+              },
+              "originCapturerTeam": "ENLIGHTENED",
+              "destinationPortalInfo": {
+                "title": "Delish central Cafe",
+                "description": "Delish central is fine dine cafe",
+                "latE6": 4173787,
+                "lngE6": 73510313,
+                "team": "RESISTANCE"
+              }
+            },
+            {
+              "moveTimeMs": "1748678405046",
+              "reason": "no move"
+            },
+            {
+              "moveTimeMs": "1748674804042",
+              "reason": "no move"
+            },
+            {
+              "moveTimeMs": "1748671201526",
+              "reason": "spawn",
+              "destinationPortalInfo": {
+                "title": "Islamic Mural of Shiru 2013",
+                "latE6": 4172920,
+                "lngE6": 73505152,
+                "team": "NEUTRAL"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED"
+            }
+          ]
+        },
+        {
+          "id": "abaddon1_16",
+          "history": [
+            {
+              "moveTimeMs": "1748704204603",
+              "reason": "despawn",
+              "originPortalInfo": {
+                "title": "Ermita de San Gregorio",
+                "description": "Lugar de culto y reunión",
+                "latE6": 41709692,
+                "lngE6": -873608,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "ENLIGHTENED"
+            },
+            {
+              "moveTimeMs": "1748703602187",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Iglesia de Gurrea de Gállego",
+                "latE6": 42012777,
+                "lngE6": -761963,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "RESISTANCE",
+              "destinationPortalInfo": {
+                "title": "Ermita de San Gregorio",
+                "description": "Lugar de culto y reunión",
+                "latE6": 41709692,
+                "lngE6": -873608,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "ENLIGHTENED",
+              "linkCreationTimeMs": "1748702270467",
+              "linkCreatorTeam": "ENLIGHTENED",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748700003655",
+              "reason": "no move"
+            },
+            {
+              "moveTimeMs": "1748696408144",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Ayuntamiento de Gurrea de Gállego",
+                "latE6": 42012497,
+                "lngE6": -761552,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "RESISTANCE",
+              "destinationPortalInfo": {
+                "title": "Iglesia de Gurrea de Gállego",
+                "latE6": 42012777,
+                "lngE6": -761963,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1744721722251",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
+            },
+            {
+              "moveTimeMs": "1748692801269",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Ermita de San Gregorio",
+                "description": "Lugar de culto y reunión",
+                "latE6": 41709692,
+                "lngE6": -873608,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "ENLIGHTENED",
+              "destinationPortalInfo": {
+                "title": "Ayuntamiento de Gurrea de Gállego",
+                "latE6": 42012497,
+                "lngE6": -761552,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1746960212115",
+              "linkCreatorTeam": "ENLIGHTENED",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748689201243",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Desembocadura del Río Gállego",
+                "description": "Panel informativo en la desembocadura del rio Gallego al rio Ebro",
+                "latE6": 41650566,
+                "lngE6": -848689,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "ENLIGHTENED",
+              "destinationPortalInfo": {
+                "title": "Ermita de San Gregorio",
+                "description": "Lugar de culto y reunión",
+                "latE6": 41709692,
+                "lngE6": -873608,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "ENLIGHTENED",
+              "linkCreationTimeMs": "1748685995454",
+              "linkCreatorTeam": "ENLIGHTENED",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748685605464",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Paseando Por La Alameda Del Ebro",
+                "description": "Cartel informativo del paseo de la llamada del Ebro",
+                "latE6": 41654911,
+                "lngE6": -866423,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "ENLIGHTENED",
+              "destinationPortalInfo": {
+                "title": "Desembocadura del Río Gállego",
+                "description": "Panel informativo en la desembocadura del rio Gallego al rio Ebro",
+                "latE6": 41650566,
+                "lngE6": -848689,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "linkCreationTimeMs": "1748682599206",
+              "linkCreatorTeam": "ENLIGHTENED",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748682022639",
+              "reason": "spawn",
+              "destinationPortalInfo": {
+                "title": "Paseando Por La Alameda Del Ebro",
+                "description": "Cartel informativo del paseo de la llamada del Ebro",
+                "latE6": 41654911,
+                "lngE6": -866423,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED"
+            }
+          ]
+        },
+        {
           "id": "abaddon1_05",
           "history": [
             {
@@ -1029,189 +1943,165 @@
           ]
         },
         {
-          "id": "abaddon1_11",
-          "currentPortalInfo": {
-            "title": "Soutok Odry A Ostravice",
-            "latE6": 49869751,
-            "lngE6": 18280165,
-            "team": "ENLIGHTENED"
-          },
+          "id": "abaddon1_15",
           "history": [
             {
-              "moveTimeMs": "1748685602255",
+              "moveTimeMs": "1748704200526",
+              "reason": "despawn",
+              "originPortalInfo": {
+                "title": "Jetty Hide Colne Point Nature Reserve",
+                "description": "Colne Point Nature Reserve is 276 hectares of salt marsh along Ray Creek. Managed by the Essex Wildlife Trust.",
+                "latE6": 51774241,
+                "lngE6": 1039607,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED"
+            },
+            {
+              "moveTimeMs": "1748703604344",
               "reason": "link",
               "originPortalInfo": {
-                "title": "Soutok socha",
-                "description": "Socha u soutoku Lučiny s Ostravicí.",
-                "latE6": 49832194,
-                "lngE6": 18297721,
+                "title": "MTB Routes Kromvelde",
+                "description": "Trail marker van de blauw en rood gemarkeerde mountainbikeroutes door Evergem.",
+                "latE6": 51110251,
+                "lngE6": 3668265,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "Jetty Hide Colne Point Nature Reserve",
+                "description": "Colne Point Nature Reserve is 276 hectares of salt marsh along Ray Creek. Managed by the Essex Wildlife Trust.",
+                "latE6": 51774241,
+                "lngE6": 1039607,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "linkCreationTimeMs": "1748702615749",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748700001460",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Ruitersclub Dravershof",
+                "description": "Paardensportclub in Belzele met verschillende oefen- en wedstrijdterreinen",
+                "latE6": 51097077,
+                "lngE6": 3680891,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "MTB Routes Kromvelde",
+                "description": "Trail marker van de blauw en rood gemarkeerde mountainbikeroutes door Evergem.",
+                "latE6": 51110251,
+                "lngE6": 3668265,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "linkCreationTimeMs": "1748699793978",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748696407122",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Kruisbeeld Durmstraat",
+                "latE6": 51085938,
+                "lngE6": 3679524,
                 "team": "RESISTANCE"
               },
               "originCapturerTeam": "RESISTANCE",
               "destinationPortalInfo": {
-                "title": "Soutok Odry A Ostravice",
-                "latE6": 49869751,
-                "lngE6": 18280165,
-                "team": "ENLIGHTENED"
+                "title": "Ruitersclub Dravershof",
+                "description": "Paardensportclub in Belzele met verschillende oefen- en wedstrijdterreinen",
+                "latE6": 51097077,
+                "lngE6": 3680891,
+                "team": "RESISTANCE"
               },
               "destinationCapturerTeam": "RESISTANCE",
-              "linkCreationTimeMs": "1748685572820",
+              "linkCreationTimeMs": "1748695992345",
               "linkCreatorTeam": "RESISTANCE",
               "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
             },
             {
-              "moveTimeMs": "1748682008587",
-              "reason": "spawn",
-              "destinationPortalInfo": {
-                "title": "Soutok socha",
-                "description": "Socha u soutoku Lučiny s Ostravicí.",
-                "latE6": 49832194,
-                "lngE6": 18297721,
-                "team": "RESISTANCE"
-              },
-              "destinationCapturerTeam": "NOT_SPECIFIED"
-            }
-          ]
-        },
-        {
-          "id": "abaddon1_08",
-          "currentPortalInfo": {
-            "title": "Fountain at Centre for Open Learning",
-            "description": "Centre for open learning is a branch of the Maldives National University.",
-            "latE6": 4172925,
-            "lngE6": 73509198,
-            "team": "ENLIGHTENED"
-          },
-          "history": [
-            {
-              "moveTimeMs": "1748685609292",
+              "moveTimeMs": "1748692807269",
               "reason": "link",
               "originPortalInfo": {
-                "title": "Delish central Cafe",
-                "description": "Delish central is fine dine cafe",
-                "latE6": 4173787,
-                "lngE6": 73510313,
-                "team": "RESISTANCE"
-              },
-              "originCapturerTeam": "ENLIGHTENED",
-              "destinationPortalInfo": {
-                "title": "Fountain at Centre for Open Learning",
-                "description": "Centre for open learning is a branch of the Maldives National University.",
-                "latE6": 4172925,
-                "lngE6": 73509198,
-                "team": "ENLIGHTENED"
-              },
-              "destinationCapturerTeam": "NOT_SPECIFIED",
-              "linkCreationTimeMs": "1748685592397",
-              "linkCreatorTeam": "ENLIGHTENED",
-              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
-            },
-            {
-              "moveTimeMs": "1748682005517",
-              "reason": "jump",
-              "originPortalInfo": {
-                "title": "Islamic Mural of Shiru 2013",
-                "latE6": 4172920,
-                "lngE6": 73505152,
-                "team": "ENLIGHTENED"
-              },
-              "originCapturerTeam": "ENLIGHTENED",
-              "destinationPortalInfo": {
-                "title": "Delish central Cafe",
-                "description": "Delish central is fine dine cafe",
-                "latE6": 4173787,
-                "lngE6": 73510313,
-                "team": "RESISTANCE"
-              }
-            },
-            {
-              "moveTimeMs": "1748678405046",
-              "reason": "no move"
-            },
-            {
-              "moveTimeMs": "1748674804042",
-              "reason": "no move"
-            },
-            {
-              "moveTimeMs": "1748671201526",
-              "reason": "spawn",
-              "destinationPortalInfo": {
-                "title": "Islamic Mural of Shiru 2013",
-                "latE6": 4172920,
-                "lngE6": 73505152,
-                "team": "ENLIGHTENED"
-              },
-              "destinationCapturerTeam": "NOT_SPECIFIED"
-            }
-          ]
-        },
-        {
-          "id": "abaddon1_10",
-          "currentPortalInfo": {
-            "title": "Metrostation Hadzhi Dimitar Billa",
-            "description": "Metrostation Hadzhi Dimitar Billa",
-            "latE6": 42702677,
-            "lngE6": 23352950,
-            "team": "ENLIGHTENED"
-          },
-          "history": [
-            {
-              "moveTimeMs": "1748685604138",
-              "reason": "link",
-              "originPortalInfo": {
-                "title": "Георги Наджаков",
-                "description": "Паметна плоча.",
-                "latE6": 42691701,
-                "lngE6": 23338896,
+                "title": "Infobord Loopomloop Gent",
+                "description": "Bord met info over 3 looplussen in de buurt van Drongen en gent. Dit is één van de twee startplaatsen van 3 lussen van respectievelijk 5km, 5,7km en 10,7km. Er staan ook looptips op.",
+                "latE6": 51049959,
+                "lngE6": 3664576,
                 "team": "ENLIGHTENED"
               },
               "originCapturerTeam": "NOT_SPECIFIED",
               "destinationPortalInfo": {
-                "title": "Metrostation Hadzhi Dimitar Billa",
-                "description": "Metrostation Hadzhi Dimitar Billa",
-                "latE6": 42702677,
-                "lngE6": 23352950,
-                "team": "ENLIGHTENED"
+                "title": "Kruisbeeld Durmstraat",
+                "latE6": 51085938,
+                "lngE6": 3679524,
+                "team": "RESISTANCE"
               },
-              "destinationCapturerTeam": "NOT_SPECIFIED",
-              "linkCreationTimeMs": "1748684484322",
-              "linkCreatorTeam": "ENLIGHTENED",
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1748692626976",
+              "linkCreatorTeam": "RESISTANCE",
               "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
             },
             {
-              "moveTimeMs": "1748682007177",
+              "moveTimeMs": "1748689202168",
               "reason": "link",
               "originPortalInfo": {
-                "title": "Масово изкачване на Черни Връх",
-                "description": "Началото",
-                "latE6": 42694622,
-                "lngE6": 23325489,
-                "team": "ENLIGHTENED"
+                "title": "Informatiebord vijver - Natuurpark Overmeers",
+                "description": "Informatie omtrent de fauna in de vijver van Natuurpark Overmeers.",
+                "latE6": 51033767,
+                "lngE6": 3697062,
+                "team": "RESISTANCE"
               },
               "originCapturerTeam": "NOT_SPECIFIED",
               "destinationPortalInfo": {
-                "title": "Георги Наджаков",
-                "description": "Паметна плоча.",
-                "latE6": 42691701,
-                "lngE6": 23338896,
+                "title": "Infobord Loopomloop Gent",
+                "description": "Bord met info over 3 looplussen in de buurt van Drongen en gent. Dit is één van de twee startplaatsen van 3 lussen van respectievelijk 5km, 5,7km en 10,7km. Er staan ook looptips op.",
+                "latE6": 51049959,
+                "lngE6": 3664576,
                 "team": "ENLIGHTENED"
               },
-              "destinationCapturerTeam": "ENLIGHTENED",
-              "linkCreationTimeMs": "1748681231987",
-              "linkCreatorTeam": "ENLIGHTENED",
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1748688300377",
+              "linkCreatorTeam": "RESISTANCE",
               "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
             },
             {
-              "moveTimeMs": "1748678406578",
+              "moveTimeMs": "1748685607149",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Benedictuspoort",
+                "latE6": 51034742,
+                "lngE6": 3739230,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "RESISTANCE",
+              "destinationPortalInfo": {
+                "title": "Informatiebord vijver - Natuurpark Overmeers",
+                "description": "Informatie omtrent de fauna in de vijver van Natuurpark Overmeers.",
+                "latE6": 51033767,
+                "lngE6": 3697062,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "linkCreationTimeMs": "1748685594472",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748682005528",
               "reason": "spawn",
               "destinationPortalInfo": {
-                "title": "Масово изкачване на Черни Връх",
-                "description": "Началото",
-                "latE6": 42694622,
-                "lngE6": 23325489,
-                "team": "ENLIGHTENED"
+                "title": "Benedictuspoort",
+                "latE6": 51034742,
+                "lngE6": 3739230,
+                "team": "RESISTANCE"
               },
-              "destinationCapturerTeam": "RESISTANCE"
+              "destinationCapturerTeam": "ENLIGHTENED"
             }
           ]
         },
@@ -1363,198 +2253,175 @@
           ]
         },
         {
-          "id": "abaddon1_14",
-          "currentPortalInfo": {
-            "title": "Helleristningen på Skeie.",
-            "description": "En helleristning fra Vikingetiden som viser ett langskip.\nHelleristningen ligger ved innseilingen til Stavanger på ett sted hvor befolkningen trolig hadde god utsikt til skipa som la ut på, eller returnerte fra seilas.",
-            "latE6": 59004478,
-            "lngE6": 5716321,
-            "team": "RESISTANCE"
-          },
+          "id": "abaddon1_12",
           "history": [
             {
-              "moveTimeMs": "1748685608317",
-              "reason": "link",
+              "moveTimeMs": "1748704205641",
+              "reason": "despawn",
               "originPortalInfo": {
-                "title": "Blidensol",
-                "description": "Oldest building in old Stavanger, built around year 1700",
-                "latE6": 58973682,
-                "lngE6": 5723618,
+                "title": "BBC 5 Park",
+                "latE6": 48145133,
+                "lngE6": 17142834,
                 "team": "RESISTANCE"
               },
-              "originCapturerTeam": "RESISTANCE",
+              "originCapturerTeam": "RESISTANCE"
+            },
+            {
+              "moveTimeMs": "1748703606214",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "BK Lokomotiva Bratislava",
+                "description": "basketbalova hala loky",
+                "latE6": 48141730,
+                "lngE6": 17170307,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
               "destinationPortalInfo": {
-                "title": "Helleristningen på Skeie.",
-                "description": "En helleristning fra Vikingetiden som viser ett langskip.\nHelleristningen ligger ved innseilingen til Stavanger på ett sted hvor befolkningen trolig hadde god utsikt til skipa som la ut på, eller returnerte fra seilas.",
-                "latE6": 59004478,
-                "lngE6": 5716321,
+                "title": "BBC 5 Park",
+                "latE6": 48145133,
+                "lngE6": 17142834,
                 "team": "RESISTANCE"
               },
               "destinationCapturerTeam": "RESISTANCE",
-              "linkCreationTimeMs": "1748685557260",
+              "linkCreationTimeMs": "1748701875200",
               "linkCreatorTeam": "RESISTANCE",
               "linkOriginatedFromOriginPortal": "DESTINATION_TO_ORIGIN"
             },
             {
-              "moveTimeMs": "1748682001631",
-              "reason": "spawn",
-              "destinationPortalInfo": {
-                "title": "Blidensol",
-                "description": "Oldest building in old Stavanger, built around year 1700",
-                "latE6": 58973682,
-                "lngE6": 5723618,
-                "team": "RESISTANCE"
-              },
-              "destinationCapturerTeam": "NOT_SPECIFIED"
-            }
-          ]
-        },
-        {
-          "id": "abaddon1_15",
-          "currentPortalInfo": {
-            "title": "Informatiebord vijver - Natuurpark Overmeers",
-            "description": "Informatie omtrent de fauna in de vijver van Natuurpark Overmeers.",
-            "latE6": 51033767,
-            "lngE6": 3697062,
-            "team": "RESISTANCE"
-          },
-          "history": [
-            {
-              "moveTimeMs": "1748685607149",
+              "moveTimeMs": "1748700003281",
               "reason": "link",
               "originPortalInfo": {
-                "title": "Benedictuspoort",
-                "latE6": 51034742,
-                "lngE6": 3739230,
+                "title": "Pirate ship",
+                "latE6": 48151748,
+                "lngE6": 17175655,
                 "team": "RESISTANCE"
               },
               "originCapturerTeam": "RESISTANCE",
               "destinationPortalInfo": {
-                "title": "Informatiebord vijver - Natuurpark Overmeers",
-                "description": "Informatie omtrent de fauna in de vijver van Natuurpark Overmeers.",
-                "latE6": 51033767,
-                "lngE6": 3697062,
-                "team": "RESISTANCE"
+                "title": "BK Lokomotiva Bratislava",
+                "description": "basketbalova hala loky",
+                "latE6": 48141730,
+                "lngE6": 17170307,
+                "team": "ENLIGHTENED"
               },
-              "destinationCapturerTeam": "NOT_SPECIFIED",
-              "linkCreationTimeMs": "1748685594472",
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1748699512906",
               "linkCreatorTeam": "RESISTANCE",
               "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
             },
             {
-              "moveTimeMs": "1748682005528",
-              "reason": "spawn",
-              "destinationPortalInfo": {
-                "title": "Benedictuspoort",
-                "latE6": 51034742,
-                "lngE6": 3739230,
+              "moveTimeMs": "1748696404181",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Wooden airplane",
+                "description": "in Bratislava airport",
+                "latE6": 48169181,
+                "lngE6": 17198913,
                 "team": "RESISTANCE"
               },
-              "destinationCapturerTeam": "ENLIGHTENED"
+              "originCapturerTeam": "RESISTANCE",
+              "destinationPortalInfo": {
+                "title": "Pirate ship",
+                "latE6": 48151748,
+                "lngE6": 17175655,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1748694666765",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748692803310",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Detska atrakcia na ihrisku",
+                "description": "Nová atrakcia na miestnom ihrisku",
+                "latE6": 48144325,
+                "lngE6": 17208283,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "Wooden airplane",
+                "description": "in Bratislava airport",
+                "latE6": 48169181,
+                "lngE6": 17198913,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1748691222572",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748689208311",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Janko Cmelik",
+                "latE6": 48157981,
+                "lngE6": 17176009,
+                "team": "ENLIGHTENED"
+              },
+              "originCapturerTeam": "RESISTANCE",
+              "destinationPortalInfo": {
+                "title": "Detska atrakcia na ihrisku",
+                "description": "Nová atrakcia na miestnom ihrisku",
+                "latE6": 48144325,
+                "lngE6": 17208283,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "RESISTANCE",
+              "linkCreationTimeMs": "1748687123251",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748685603455",
+              "reason": "link",
+              "originPortalInfo": {
+                "title": "Malba",
+                "description": "Makovice na obytnom dome",
+                "latE6": 48144939,
+                "lngE6": 17211458,
+                "team": "RESISTANCE"
+              },
+              "originCapturerTeam": "NOT_SPECIFIED",
+              "destinationPortalInfo": {
+                "title": "Janko Cmelik",
+                "latE6": 48157981,
+                "lngE6": 17176009,
+                "team": "ENLIGHTENED"
+              },
+              "destinationCapturerTeam": "NOT_SPECIFIED",
+              "linkCreationTimeMs": "1748685547179",
+              "linkCreatorTeam": "RESISTANCE",
+              "linkOriginatedFromOriginPortal": "ORIGIN_TO_DESTINATION"
+            },
+            {
+              "moveTimeMs": "1748682003519",
+              "reason": "spawn",
+              "destinationPortalInfo": {
+                "title": "Malba",
+                "description": "Makovice na obytnom dome",
+                "latE6": 48144939,
+                "lngE6": 17211458,
+                "team": "RESISTANCE"
+              },
+              "destinationCapturerTeam": "RESISTANCE"
             }
           ]
         }
       ]
     },
     {
-      "id": "quebec",
-      "name": "Quebec"
-    },
-    {
-      "id": "charlie",
-      "name": "Charlie"
-    },
-    {
-      "id": "delta",
-      "name": "Delta"
-    },
-    {
-      "id": "romeo",
-      "name": "Romeo"
-    },
-    {
-      "id": "mike",
-      "name": "Mike"
-    },
-    {
-      "id": "november",
-      "name": "November"
-    },
-    {
-      "id": "zulu",
-      "name": "Zulu"
-    },
-    {
-      "id": "xray",
-      "name": "Xray"
-    },
-    {
-      "id": "whiskey",
-      "name": "Whiskey"
-    },
-    {
-      "id": "golf",
-      "name": "Golf"
-    },
-    {
-      "id": "victor",
-      "name": "Victor"
-    },
-    {
-      "id": "oscar",
-      "name": "Oscar"
-    },
-    {
-      "id": "kilo",
-      "name": "Kilo"
-    },
-    {
-      "id": "sierra",
-      "name": "Sierra"
-    },
-    {
-      "id": "echo",
-      "name": "Echo"
-    },
-    {
-      "id": "india",
-      "name": "India"
-    },
-    {
-      "id": "bravo",
-      "name": "Bravo"
-    },
-    {
-      "id": "alpha",
-      "name": "Alpha"
-    },
-    {
-      "id": "lima",
-      "name": "Lima"
-    },
-    {
-      "id": "juliet",
-      "name": "Juliet"
-    },
-    {
-      "id": "hotel",
-      "name": "Hotel"
-    },
-    {
       "id": "foxtrot",
       "name": "Foxtrot"
     },
     {
-      "id": "abaddon2",
-      "name": "Abaddon 2"
-    },
-    {
-      "id": "uniform",
-      "name": "Uniform"
-    },
-    {
-      "id": "targetenl",
-      "name": "Target ENL"
+      "id": "hotel",
+      "name": "Hotel"
     }
   ]
 }
